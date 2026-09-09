@@ -17,6 +17,7 @@ network:
   allowed:
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 ---
 
 # Update Mona's GitHub Info website
@@ -27,14 +28,17 @@ Use these sources:
 - `notes/mona-notes.md`
 - GitHub Blog: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
 
 Check that the agentic workflow configuration syntax is valid before editing or proposing changes.
 
 Read external public guidance using web-fetch, and read repository guidance or reference files using GitHub repository API tools instead of terminal, CLI, or sandboxed commands.
 
+For this update, the agent must web fetch https://awesome-copilot.github.com/workflows/ and include the Awesome Copilot workflows source as an added source.
+
 Update `site/content/github-info.md` with concise,
 practical updates for readers and include source context when content comes
-from the GitHub Blog or GitHub Changelog.
+from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 
 Open a pull request for Mona to review. Use a pull request title that mentions Mona or GitHub Info.
 
